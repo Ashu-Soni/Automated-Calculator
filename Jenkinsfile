@@ -1,5 +1,9 @@
 pipeline{
     agent any
+    environment {
+        MAVEN_HOME="/opt/maven"
+        PATH = "$MAVEN_HOME/bin:$PATH"
+    }
     stages {
         stage('Clone GitHub Repository') {
             steps {
@@ -9,8 +13,6 @@ pipeline{
         }
         stage('Test'){
             steps {
-                sh 'export MAVEN_HOME=/opt/maven'
-                sh 'export PATH=$PATH:$MAVEN_HOME/bin'
                 sh 'mvn clean test'
             }
         }
