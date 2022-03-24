@@ -7,7 +7,7 @@ pipeline{
     stages {
         stage('Clone GitHub Repository') {
             steps {
-//                 sh 'git clone https://github.com/Ashu-Soni/Automated-Calculator.git'
+                sh 'git clone https://github.com/Ashu-Soni/Automated-Calculator.git'
                 sh 'cd Automated-Calculator'
             }
         }
