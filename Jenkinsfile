@@ -1,28 +1,34 @@
 pipeline{
     agent any
     environment {
-        MAVEN_HOME="/opt/maven"
+        MAVEN_HOME="/Users/ashutoshsoni/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/maven"
         PATH = "$MAVEN_HOME/bin:$PATH"
     }
     stages {
         stage('Clone GitHub Repository') {
             steps {
                 sh 'git clone https://github.com/Ashu-Soni/Automated-Calculator.git'
-                sh 'cd Automated-Calculator'
             }
         }
         stage('Test'){
             steps {
-                sh 'mvn clean test'
+                dir('Automated-Calculator'){
+                    sh 'mvn clean test'
+                }
             }
         }
         stage('Build'){
             steps {
-                sh 'mvn install'
+                dir('Automated-Calculator'){
+                    sh 'mvn install'
+                }
             }
         }
-//         stage('Deploy'){
-//         }
+        stage('Deploy'){
+            steps {
+                sh 'ls -r'
+            }
+        }
     }
     post {
         always {
