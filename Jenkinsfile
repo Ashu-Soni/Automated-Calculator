@@ -1,8 +1,9 @@
 pipeline{
     agent any
     environment {
-        MAVEN_HOME="/Users/ashutoshsoni/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/maven"
-        PATH = "$MAVEN_HOME/bin:$PATH"
+        dockerImage=''
+        registry = "ashu07soni/auto_calculator"
+        registryCredential = 'docker_login'
     }
     stages {
         stage('Clone GitHub Repository') {
@@ -23,6 +24,16 @@ pipeline{
             }
         }
         stage('Docker Build and Push'){
+//             steps{
+//                 script {
+//                     dockerImage = docker.build registry
+//                 }
+//                 script {
+//                     docker.withRegistry( '', registryCredential ) {
+//                         dockerImage.push()
+//                     }
+//                 }
+//             }
             steps {
                 sh 'docker build -t ashu07soni/auto_calculator .'
                 sh 'docker push ashu07soni/auto_calculator'
