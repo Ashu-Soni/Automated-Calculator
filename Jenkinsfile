@@ -24,26 +24,16 @@ pipeline{
             }
         }
         stage('Docker Build and Push'){
-//             steps{
-//                 script {
-//                     dockerImage = docker.build registry
-//                 }
-//                 script {
-//                     docker.withRegistry( '', registryCredential ) {
-//                         dockerImage.push()
-//                     }
-//                 }
-//             }
             steps {
                 sh 'docker build -t ashu07soni/auto_calculator .'
                 sh 'docker push ashu07soni/auto_calculator'
             }
         }
-//         stage('Ansible Deploy') {
-//              steps {
-//                   ansiblePlaybook colorized: true, disableHostKeyChecking: true, installation: 'Ansible', inventory: 'inventory', playbook: 'deploy.yml'
-//              }
-//         }
+        stage('Ansible Deploy') {
+             steps {
+                  ansiblePlaybook colorized: true, disableHostKeyChecking: true, installation: 'Ansible', inventory: 'inventory', playbook: 'deploy.yml'
+             }
+        }
     }
     post {
         always {
