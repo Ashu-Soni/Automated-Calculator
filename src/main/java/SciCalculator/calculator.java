@@ -47,6 +47,7 @@ public class calculator {
             System.out.println("4. Power Function");
             System.out.println("5. Quit");
 
+            System.out.println("Enter your choice: ");
             int ch = sc.nextInt();
 
             switch (ch){
