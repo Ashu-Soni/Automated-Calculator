@@ -8,7 +8,7 @@
         state: started
 
     - name: pull docker image
-      shell: docker pull ashu07soni/auto_calculator
+      shell: sudo docker pull ashu07soni/auto_calculator
 
 #    - name: running container
 #      shell: docker run -it -d ashu07soni/auto_calculator
