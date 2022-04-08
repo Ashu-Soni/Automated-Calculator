@@ -1,0 +1,48 @@
+2022-04-08 10:54:07.208 [main] INFO  SciCalculator.calculator - [Square_Root] - 4.0
+2022-04-08 10:54:07.210 [main] INFO  SciCalculator.calculator - [Square_Root-Result] - 2.0
+2022-04-08 10:54:07.210 [main] INFO  SciCalculator.calculator - [Square_Root] - 25.0
+2022-04-08 10:54:07.210 [main] INFO  SciCalculator.calculator - [Square_Root-Result] - 5.0
+2022-04-08 10:54:19.111 [main] INFO  SciCalculator.calculator - [Square_Root] - 4.0
+2022-04-08 10:54:19.112 [main] INFO  SciCalculator.calculator - [Square_Root-Result] - 2.0
+2022-04-08 10:54:19.113 [main] INFO  SciCalculator.calculator - [Square_Root] - 25.0
+2022-04-08 10:54:19.113 [main] INFO  SciCalculator.calculator - [Square_Root-Result] - 5.0
+2022-04-08 10:56:41.694 [main] INFO  SciCalculator.calculator - [Square_Root] - 4.0
+2022-04-08 10:56:41.700 [main] INFO  SciCalculator.calculator - [Square_Root-Result] - 2.0
+2022-04-08 10:56:53.049 [main] INFO  SciCalculator.calculator - [Factorial] - 5
+2022-04-08 10:56:53.063 [main] INFO  SciCalculator.calculator - [Factorial-Result] - 120
+2022-04-08 10:57:00.475 [main] INFO  SciCalculator.calculator - [Power] - [Base] - 3.0 [Exponent] - 2
+2022-04-08 10:57:00.476 [main] INFO  SciCalculator.calculator - [Power-Result] - 9.0
+2022-04-08 11:08:48.705 [main] INFO  SciCalculator.calculator - [Natural_Log] - 10.0
+2022-04-08 11:08:48.711 [main] INFO  SciCalculator.calculator - [Natural_Log-Result] - 2.302585092994046
+2022-04-08 11:09:10.760 [main] INFO  SciCalculator.calculator - [Natural_Log] - 5.0
+2022-04-08 11:09:10.762 [main] INFO  SciCalculator.calculator - [Natural_Log-Result] - 1.6094379124341003
+2022-04-08 11:12:01.446 [main] INFO  SciCalculator.calculator - [Square_Root] - 4.0
+2022-04-08 11:12:01.447 [main] INFO  SciCalculator.calculator - [Square_Root-Result] - 2.0
+2022-04-08 11:12:01.447 [main] INFO  SciCalculator.calculator - [Square_Root] - 25.0
+2022-04-08 11:12:01.447 [main] INFO  SciCalculator.calculator - [Square_Root-Result] - 5.0
+2022-04-08 11:12:01.449 [main] INFO  SciCalculator.calculator - [Power] - [Base] - 3.0 [Exponent] - 2
+2022-04-08 11:12:01.449 [main] INFO  SciCalculator.calculator - [Power-Result] - 9.0
+2022-04-08 11:12:01.449 [main] INFO  SciCalculator.calculator - [Power] - [Base] - 5.0 [Exponent] - 2
+2022-04-08 11:12:01.449 [main] INFO  SciCalculator.calculator - [Power-Result] - 25.0
+2022-04-08 11:12:01.449 [main] INFO  SciCalculator.calculator - [Factorial] - 5
+2022-04-08 11:12:01.450 [main] INFO  SciCalculator.calculator - [Factorial-Result] - 120
+2022-04-08 11:12:01.450 [main] INFO  SciCalculator.calculator - [Factorial] - 4
+2022-04-08 11:12:01.451 [main] INFO  SciCalculator.calculator - [Factorial-Result] - 24
+2022-04-08 11:12:01.451 [main] INFO  SciCalculator.calculator - [Natural_Log] - 10.0
+2022-04-08 11:12:01.451 [main] INFO  SciCalculator.calculator - [Natural_Log-Result] - 2.302585092994046
+2022-04-08 11:12:31.079 [main] INFO  SciCalculator.calculator - [Square_Root] - 4.0
+2022-04-08 11:12:31.080 [main] INFO  SciCalculator.calculator - [Square_Root-Result] - 2.0
+2022-04-08 11:12:31.080 [main] INFO  SciCalculator.calculator - [Square_Root] - 25.0
+2022-04-08 11:12:31.080 [main] INFO  SciCalculator.calculator - [Square_Root-Result] - 5.0
+2022-04-08 11:12:31.082 [main] INFO  SciCalculator.calculator - [Power] - [Base] - 3.0 [Exponent] - 2
+2022-04-08 11:12:31.082 [main] INFO  SciCalculator.calculator - [Power-Result] - 9.0
+2022-04-08 11:12:31.082 [main] INFO  SciCalculator.calculator - [Power] - [Base] - 5.0 [Exponent] - 2
+2022-04-08 11:12:31.082 [main] INFO  SciCalculator.calculator - [Power-Result] - 25.0
+2022-04-08 11:12:31.082 [main] INFO  SciCalculator.calculator - [Factorial] - 5
+2022-04-08 11:12:31.083 [main] INFO  SciCalculator.calculator - [Factorial-Result] - 120
+2022-04-08 11:12:31.083 [main] INFO  SciCalculator.calculator - [Factorial] - 4
+2022-04-08 11:12:31.083 [main] INFO  SciCalculator.calculator - [Factorial-Result] - 24
+2022-04-08 11:12:31.084 [main] INFO  SciCalculator.calculator - [Natural_Log] - 10.0
+2022-04-08 11:12:31.084 [main] INFO  SciCalculator.calculator - [Natural_Log-Result] - 2.302585092994046
+2022-04-08 11:12:31.084 [main] INFO  SciCalculator.calculator - [Natural_Log] - 5.0
+2022-04-08 11:12:31.084 [main] INFO  SciCalculator.calculator - [Natural_Log-Result] - 1.6094379124341003

@@ -2,31 +2,44 @@ package SciCalculator;
 
 import java.util.Scanner;
 import java.lang.Math;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 public class calculator {
+    private static final Logger logger = LogManager.getLogger(calculator.class);
     public double sqrt(double value){
-        return Math.sqrt(value);
+        logger.info("[Square_Root] - "+value);
+        double result = Math.sqrt(value);
+        logger.info("[Square_Root-Result] - "+result);
+        return result;
     }
 
     public long factorial(int value){
+        logger.info("[Factorial] - "+value);
         int tp = value;
         long ans=1;
         while (tp>0){
             ans*=tp;
             tp--;
         }
+        logger.info("[Factorial-Result] - "+ans);
         return ans;
     }
 
     public double natural_log(double value){
-        return Math.log(value);
+        logger.info("[Natural_Log] - "+value);
+        double result = Math.log(value);
+        logger.info("[Natural_Log-Result] - "+result);
+        return result;
     }
 
     public double power(double value, int p){
+        logger.info("[Power] - [Base] - "+value+" [Exponent] - "+p);
         double ans=1;
         for(int i=1;i<=p;i++){
             ans*=value;
         }
+        logger.info("[Power-Result] - "+ans);
         return ans;
     }
 
