@@ -45,7 +45,9 @@ public class calculator {
 
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
+
         System.out.println("##### Automated Calculator Program #####");
+        System.out.println("# Solution By: Ashutosh Soni-MT2021026 #");
         System.out.println("########################################");
 
         boolean flag=true;
